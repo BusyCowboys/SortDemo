@@ -6,7 +6,7 @@ public class BubbleSort {
   public static void sort(int score[]) {
     System.out.println(score.length);
     for (int i = 0; i < score.length - 1; i++) { // n-1次排序,最多[n*(n-1)]/2次交换
-      for (int j = 0; j < score.length - i - 1; j++) { // 对当前无序区间score[0......length-i-1]进行排序(j的范围很关键，这个范围是在逐步缩小的)
+      for (int j = 0; j < score.length - i - 1; j++) { 
         if (score[j] < score[j + 1]) { // 把小的值交换到后面
           int temp = score[j];
           score[j] = score[j + 1];
