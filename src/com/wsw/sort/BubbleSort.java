@@ -1,6 +1,5 @@
 package com.wsw.sort;
 
-import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -11,7 +10,7 @@ public class BubbleSort {
     Date begintime = new Date();
     sort(score);
     Date endtime = new Date();
-    comparetime(endtime, begintime);
+    SortUtils.comparetime(endtime, begintime);
     System.out.println(Arrays.toString(score) + "\t");
   }
 
@@ -35,22 +34,6 @@ public class BubbleSort {
     // for (int a = 0; a < score.length; a++) {
     // System.out.print(score[a] + "\t");
     // }
-  }
-
-  // 比较时间
-  public static void comparetime(Date begintime, Date endtime) {
-    try {
-      SimpleDateFormat time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-      Date begin = time.parse(time.format(begintime));
-      Date end = time.parse(time.format(endtime));
-      long interval = (end.getTime() - begin.getTime());
-      System.out.println("两个时间相差" + interval + "豪秒");
-      System.out
-          .println("开始时间:" + time.format(begintime) + "====" + "结束时间:" + time.format(endtime));
-
-    } catch (Exception ex) {
-      ex.printStackTrace();
-    }
   }
 
 }
