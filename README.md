@@ -30,6 +30,8 @@
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/希尔排序.png)
 
 ## 五、桶排序
+      对于N个待排数据，M个桶，平均每个桶[N/M]个数据的桶排序平均时间复杂度为：
+      O(N)+O(M*(N/M)*log(N/M))=O(N+N*(logN-logM))=O(N+N*logN-N*logM)
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/桶排序.png)
 
 ## 七、排序算法时间复杂度
