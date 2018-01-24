@@ -18,6 +18,7 @@
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/插入排序.gif)
 
 ## 二、选择排序
-      首先在未排序序列中找到最小元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小元素，然后放到已排序序列的末尾。
+      首先在未排序序列中找到最小元素，存放到排序序列的起始位置
+      然后，再从剩余未排序元素中继续寻找最小元素，然后放到已排序序列的末尾。
       时间复杂度：O(n^2)，最优时间复杂度：O(n^2),平均时间复杂度：O(n^2)
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/选择排序.gif)
