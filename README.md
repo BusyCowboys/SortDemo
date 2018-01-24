@@ -28,3 +28,6 @@
       然后算法再取越来越小的步长进行排序，算法的最后一步就是普通的插入排序，但是到了这步，需排序的数据几乎是已排好的了（此时插入排序较快）。
       时间复杂度：根据步长而不同，最优时间复杂度：O(n),平均时间复杂度：根据步长而不同
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/希尔排序.gif)
+
+## 五、桶排序
+![img](https://github.com/BusyCowboys/SortDemo/blob/master/桶排序.gif)
