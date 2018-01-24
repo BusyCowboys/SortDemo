@@ -7,7 +7,7 @@
       时间复杂度：O(n^2)，最优时间复杂度：O(n)，平均时间复杂度：O(n^2)，排序次数：n-1，交换次数:[n(n-1)]/2
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.gif)
 
-## 一、插入排序
+## 二、插入排序
       从第一个元素开始，该元素可以认为已经被排序
       取出下一个元素，在已经排序的元素序列中从后向前扫描
       如果该元素（已排序）大于新元素，将该元素移到下一位置
@@ -16,3 +16,8 @@
       重复步骤2~5
       时间复杂度：O(n^2)，最优时间复杂度：O(n),平均时间复杂度：O(n^2)
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/插入排序.gif)
+
+## 二、选择排序
+      首先在未排序序列中找到最小元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小元素，然后放到已排序序列的末尾。
+      时间复杂度：O(n^2)，最优时间复杂度：O(n^2),平均时间复杂度：O(n^2)
+![img](https://github.com/BusyCowboys/SortDemo/blob/master/选择排序.gif)
