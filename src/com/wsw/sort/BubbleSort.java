@@ -10,7 +10,7 @@ public class BubbleSort {
     Date begintime = new Date();
     sort(score);
     Date endtime = new Date();
-    SortUtils.comparetime(endtime, begintime);
+    SortUtils.comparetime(begintime,endtime);
     System.out.println(Arrays.toString(score) + "\t");
   }
 
