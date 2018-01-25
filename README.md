@@ -35,7 +35,7 @@
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/桶排序.png)
 
 # 六、快速排序
-      [点击链接查看排序原理](http://www.cnblogs.com/ahalei/p/3568434.html) 
+      [点击此处查看排序原理](http://www.cnblogs.com/ahalei/p/3568434.html) 
       
 ## 七、排序算法时间复杂度
 ![img](https://github.com/BusyCowboys/SortDemo/blob/master/排序算法时间复杂度.jpg)
